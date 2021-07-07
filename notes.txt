@@ -1,0 +1,12 @@
+This project uses Bloc architecture.
+
+pokemon_repository      : Send get request to API and get everything required 
+                          to return parameters such as Listings (name,id,imageUrl) & other required variables
+pokemon_page_response   : Breaks up the content get from pokemon_repository and pass them back to pokemon_repository
+main                    : Calls pokemon_bloc to get API content & pokedex_view to generate UI
+pokedex_view            : UI
+
+
+pokemon_bloc    : Main bloc method to determine what event (only pageRequest event in our case)
+pokemon_event   : Class for any event (Defines any variables required)
+pokemon_state   : All state of an event (loading/loadSuccess) which affects the UI (Defines any variables required)
