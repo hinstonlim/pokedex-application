@@ -28,7 +28,7 @@ class PokedexView extends StatelessWidget {
           } else if (state is PokemonPageLoadSuccess) {
             return GridView.builder(
               gridDelegate: 
-                SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2),
+                SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3),
               itemCount: state.pokemonListings.length,  //Dynamic count
               itemBuilder: (context, index) {     //A scrollable 2d array of widget
                 return GestureDetector(
