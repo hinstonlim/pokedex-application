@@ -10,9 +10,10 @@ class PokemonDetailsView extends StatelessWidget {
       appBar: AppBar(
         centerTitle: true,
         title: Text(
-          'Pokemon Details',
+          'TESTINGGGGGGGGGGG Details',
           style: TextStyle(
-            fontSize: 20
+            fontSize: 20,
+            color: Colors.blueAccent,
           ),
         ),
       ),
