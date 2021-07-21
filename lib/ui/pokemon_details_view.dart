@@ -12,8 +12,8 @@ class PokemonDetailsView extends StatelessWidget {
         title: Text(
           'TESTINGGGGGGGGGGG Details',
           style: TextStyle(
-            fontSize: 20,
-            color: Colors.blueAccent,
+            fontSize: 12,
+            color: Colors.red,
           ),
         ),
       ),
